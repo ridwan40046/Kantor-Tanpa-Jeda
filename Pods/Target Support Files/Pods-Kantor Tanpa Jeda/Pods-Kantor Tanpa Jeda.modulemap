@@ -1,0 +1,6 @@
+framework module Pods_Kantor_Tanpa_Jeda {
+  umbrella header "Pods-Kantor Tanpa Jeda-umbrella.h"
+
+  export *
+  module * { export * }
+}
