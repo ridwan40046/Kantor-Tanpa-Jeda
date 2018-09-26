@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		58B7AFE1DFEF8E489407B732 /* Pods_Kantor_Tanpa_Jeda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DA0CB594DDCBE7B1D737C2 /* Pods_Kantor_Tanpa_Jeda.framework */; };
+		9F2EB6AD215B637B00A8EC25 /* agenda.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB69A215B637900A8EC25 /* agenda.png */; };
+		9F2EB6AE215B637B00A8EC25 /* list jadwal pimpinan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB69B215B637900A8EC25 /* list jadwal pimpinan.png */; };
+		9F2EB6AF215B637B00A8EC25 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB69C215B637A00A8EC25 /* Search.png */; };
+		9F2EB6B0215B637B00A8EC25 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB69D215B637A00A8EC25 /* Add.png */; };
+		9F2EB6B1215B637B00A8EC25 /* thumb down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB69E215B637A00A8EC25 /* thumb down.png */; };
+		9F2EB6B2215B637B00A8EC25 /* edit pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB69F215B637A00A8EC25 /* edit pic.png */; };
+		9F2EB6B3215B637B00A8EC25 /* Filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A0215B637A00A8EC25 /* Filter.png */; };
+		9F2EB6B4215B637B00A8EC25 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A1215B637A00A8EC25 /* inbox.png */; };
+		9F2EB6B5215B637B00A8EC25 /* pic edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A2215B637A00A8EC25 /* pic edit.png */; };
+		9F2EB6B6215B637B00A8EC25 /* tanda tangan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A3215B637A00A8EC25 /* tanda tangan.png */; };
+		9F2EB6B7215B637B00A8EC25 /* kominfo white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A4215B637A00A8EC25 /* kominfo white.png */; };
+		9F2EB6B8215B637B00A8EC25 /* button arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A5215B637A00A8EC25 /* button arrow.png */; };
+		9F2EB6B9215B637B00A8EC25 /* informasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A6215B637A00A8EC25 /* informasi.png */; };
+		9F2EB6BA215B637B00A8EC25 /* Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A7215B637B00A8EC25 /* Edit.png */; };
+		9F2EB6BB215B637B00A8EC25 /* persetujuan jadwal pimpinan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A8215B637B00A8EC25 /* persetujuan jadwal pimpinan.png */; };
+		9F2EB6BC215B637B00A8EC25 /* add jadwal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6A9215B637B00A8EC25 /* add jadwal.png */; };
+		9F2EB6BD215B637B00A8EC25 /* draft.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6AA215B637B00A8EC25 /* draft.png */; };
+		9F2EB6BE215B637B00A8EC25 /* jadwal pimpinan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6AB215B637B00A8EC25 /* jadwal pimpinan.png */; };
+		9F2EB6BF215B637B00A8EC25 /* thumb up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB6AC215B637B00A8EC25 /* thumb up.png */; };
 		9FCE7379215A6A5D00E084C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE7378215A6A5D00E084C4 /* AppDelegate.swift */; };
 		9FCE737B215A6A5D00E084C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE737A215A6A5D00E084C4 /* ViewController.swift */; };
 		9FCE737E215A6A5D00E084C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE737C215A6A5D00E084C4 /* Main.storyboard */; };
@@ -151,6 +170,25 @@
 		613F967E073D317603C7F042 /* Pods-Kantor Tanpa Jeda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Jeda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Jeda/Pods-Kantor Tanpa Jeda.release.xcconfig"; sourceTree = "<group>"; };
 		948078B7E53ABAEE558705E3 /* Pods-Kantor Tanpa Jeda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Jeda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Jeda/Pods-Kantor Tanpa Jeda.debug.xcconfig"; sourceTree = "<group>"; };
 		98DA0CB594DDCBE7B1D737C2 /* Pods_Kantor_Tanpa_Jeda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantor_Tanpa_Jeda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2EB69A215B637900A8EC25 /* agenda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agenda.png; sourceTree = "<group>"; };
+		9F2EB69B215B637900A8EC25 /* list jadwal pimpinan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list jadwal pimpinan.png"; sourceTree = "<group>"; };
+		9F2EB69C215B637A00A8EC25 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		9F2EB69D215B637A00A8EC25 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		9F2EB69E215B637A00A8EC25 /* thumb down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb down.png"; sourceTree = "<group>"; };
+		9F2EB69F215B637A00A8EC25 /* edit pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit pic.png"; sourceTree = "<group>"; };
+		9F2EB6A0215B637A00A8EC25 /* Filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Filter.png; sourceTree = "<group>"; };
+		9F2EB6A1215B637A00A8EC25 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		9F2EB6A2215B637A00A8EC25 /* pic edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic edit.png"; sourceTree = "<group>"; };
+		9F2EB6A3215B637A00A8EC25 /* tanda tangan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanda tangan.png"; sourceTree = "<group>"; };
+		9F2EB6A4215B637A00A8EC25 /* kominfo white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kominfo white.png"; sourceTree = "<group>"; };
+		9F2EB6A5215B637A00A8EC25 /* button arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button arrow.png"; sourceTree = "<group>"; };
+		9F2EB6A6215B637A00A8EC25 /* informasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = informasi.png; sourceTree = "<group>"; };
+		9F2EB6A7215B637B00A8EC25 /* Edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edit.png; sourceTree = "<group>"; };
+		9F2EB6A8215B637B00A8EC25 /* persetujuan jadwal pimpinan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "persetujuan jadwal pimpinan.png"; sourceTree = "<group>"; };
+		9F2EB6A9215B637B00A8EC25 /* add jadwal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add jadwal.png"; sourceTree = "<group>"; };
+		9F2EB6AA215B637B00A8EC25 /* draft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draft.png; sourceTree = "<group>"; };
+		9F2EB6AB215B637B00A8EC25 /* jadwal pimpinan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jadwal pimpinan.png"; sourceTree = "<group>"; };
+		9F2EB6AC215B637B00A8EC25 /* thumb up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb up.png"; sourceTree = "<group>"; };
 		9FCE7375215A6A5D00E084C4 /* Kantor Tanpa Jeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kantor Tanpa Jeda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCE7378215A6A5D00E084C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FCE737A215A6A5D00E084C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -367,6 +405,25 @@
 		9FCE738C215A76E800E084C4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				9F2EB6A9215B637B00A8EC25 /* add jadwal.png */,
+				9F2EB69D215B637A00A8EC25 /* Add.png */,
+				9F2EB69A215B637900A8EC25 /* agenda.png */,
+				9F2EB6A5215B637A00A8EC25 /* button arrow.png */,
+				9F2EB6AA215B637B00A8EC25 /* draft.png */,
+				9F2EB69F215B637A00A8EC25 /* edit pic.png */,
+				9F2EB6A7215B637B00A8EC25 /* Edit.png */,
+				9F2EB6A0215B637A00A8EC25 /* Filter.png */,
+				9F2EB6A1215B637A00A8EC25 /* inbox.png */,
+				9F2EB6A6215B637A00A8EC25 /* informasi.png */,
+				9F2EB6AB215B637B00A8EC25 /* jadwal pimpinan.png */,
+				9F2EB6A4215B637A00A8EC25 /* kominfo white.png */,
+				9F2EB69B215B637900A8EC25 /* list jadwal pimpinan.png */,
+				9F2EB6A8215B637B00A8EC25 /* persetujuan jadwal pimpinan.png */,
+				9F2EB6A2215B637A00A8EC25 /* pic edit.png */,
+				9F2EB69C215B637A00A8EC25 /* Search.png */,
+				9F2EB6A3215B637A00A8EC25 /* tanda tangan.png */,
+				9F2EB69E215B637A00A8EC25 /* thumb down.png */,
+				9F2EB6AC215B637B00A8EC25 /* thumb up.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -632,9 +689,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2EB6BA215B637B00A8EC25 /* Edit.png in Resources */,
 				9FCE7383215A6A5F00E084C4 /* LaunchScreen.storyboard in Resources */,
+				9F2EB6B8215B637B00A8EC25 /* button arrow.png in Resources */,
+				9F2EB6B4215B637B00A8EC25 /* inbox.png in Resources */,
+				9F2EB6B1215B637B00A8EC25 /* thumb down.png in Resources */,
+				9F2EB6BD215B637B00A8EC25 /* draft.png in Resources */,
+				9F2EB6BB215B637B00A8EC25 /* persetujuan jadwal pimpinan.png in Resources */,
+				9F2EB6AF215B637B00A8EC25 /* Search.png in Resources */,
+				9F2EB6BE215B637B00A8EC25 /* jadwal pimpinan.png in Resources */,
+				9F2EB6B0215B637B00A8EC25 /* Add.png in Resources */,
+				9F2EB6AD215B637B00A8EC25 /* agenda.png in Resources */,
+				9F2EB6B6215B637B00A8EC25 /* tanda tangan.png in Resources */,
+				9F2EB6B9215B637B00A8EC25 /* informasi.png in Resources */,
+				9F2EB6B3215B637B00A8EC25 /* Filter.png in Resources */,
+				9F2EB6BC215B637B00A8EC25 /* add jadwal.png in Resources */,
+				9F2EB6B7215B637B00A8EC25 /* kominfo white.png in Resources */,
+				9F2EB6B2215B637B00A8EC25 /* edit pic.png in Resources */,
 				9FCE7380215A6A5F00E084C4 /* Assets.xcassets in Resources */,
+				9F2EB6BF215B637B00A8EC25 /* thumb up.png in Resources */,
+				9F2EB6B5215B637B00A8EC25 /* pic edit.png in Resources */,
 				9FCE737E215A6A5D00E084C4 /* Main.storyboard in Resources */,
+				9F2EB6AE215B637B00A8EC25 /* list jadwal pimpinan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
