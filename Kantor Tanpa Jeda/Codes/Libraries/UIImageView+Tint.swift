@@ -11,10 +11,10 @@ import UIKit
 
 extension UIImageView {
     
-    func setTintColor(_ tintColor: UIColor?) {
-        guard let tintColor = tintColor else { return; }
-        self.image = self.image!.withRenderingMode(.alwaysTemplate)
-        self.tintColor = tintColor;
-    }
+//    func setTintColor(_ tintColor: UIColor?) {
+//        guard let tintColor = tintColor else { return; }
+//        self.image = self.image!.withRenderingMode(.alwaysTemplate)
+//        self.tintColor = tintColor;
+//    }
     
 }

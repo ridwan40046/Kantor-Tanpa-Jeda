@@ -93,22 +93,22 @@ extension UITableViewCell {
     
     enum SeparatorStyle { case full; case normal; case none; }
     @discardableResult
-    func setSeparator (type: SeparatorStyle?) -> UITableViewCell { guard let type = type else { return self; }
-        switch type {
-        case .full:
-            self.preservesSuperviewLayoutMargins = true;
-            self.separatorInset = UIEdgeInsets.zero;
-            self.layoutMargins = UIEdgeInsets.zero;
-        case .none:
-            self.separatorInset = UIEdgeInsets.init(top: 0, left: 10000, bottom: 0, right: 0);
-        case .normal: break;
-        }
-        return self;
-    }
+//    func setSeparator (type: SeparatorStyle?) -> UITableViewCell { guard let type = type else { return self; }
+//        switch type {
+//        case .full:
+//            self.preservesSuperviewLayoutMargins = true;
+//            self.separatorInset = UIEdgeInsets.zero;
+//            self.layoutMargins = UIEdgeInsets.zero;
+//        case .none:
+//            self.separatorInset = UIEdgeInsets.init(top: 0, left: 10000, bottom: 0, right: 0);
+//        case .normal: break;
+//        }
+//        return self;
+//    }
     
-    @discardableResult
-    func setHidden (_ tag: Int, to bool: Bool) -> UITableViewCell {
-        self.view(tag)?.isHidden = bool; return self;
-    }
+//    @discardableResult
+//    func setHidden (_ tag: Int, to bool: Bool) -> UITableViewCell {
+//        self.view(tag)?.isHidden = bool; return self;
+//    }
     
 }

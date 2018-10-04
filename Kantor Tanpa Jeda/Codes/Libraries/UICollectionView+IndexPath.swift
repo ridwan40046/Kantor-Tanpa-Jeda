@@ -22,14 +22,14 @@ extension UICollectionView {
         return indexPath(for: cell)
     }
     
-    func sectionNumber (for view: UIView?) -> Int? {
-        guard let view = view else { return nil; }
-        for i in 0..<numberOfSections {
-            if let header = supplementaryView(forElementKind: UICollectionElementKindSectionHeader, at: IndexPath.init(row: 0, section: i)) { // might be broken
-                if header == view { return i; }
-                if view.isDescendant(of: header) { return i; }
-            }
-        }
-        return nil;
-    }
+//    func sectionNumber (for view: UIView?) -> Int? {
+//        guard let view = view else { return nil; }
+//        for i in 0..<numberOfSections {
+//            if let header = supplementaryView(forElementKind: UICollectionElementKindSectionHeader, at: IndexPath.init(row: 0, section: i)) { // might be broken
+//                if header == view { return i; }
+//                if view.isDescendant(of: header) { return i; }
+//            }
+//        }
+//        return nil;
+//    }
 }

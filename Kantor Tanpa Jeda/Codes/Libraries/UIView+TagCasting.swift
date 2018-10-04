@@ -11,7 +11,7 @@ import UIKit
 
 extension UIView {
     
-    func image() -> UIImageView? { for v in subviews { if let d = v as? UIImageView { return d; } }; return nil; }
+    func img() -> UIImageView? { for v in subviews { if let d = v as? UIImageView { return d; } }; return nil; }
     func button() -> UIButton? { for v in subviews { if let d = v as? UIButton { return d; } }; return nil; }
     func label() -> UILabel? { for v in subviews { if let d = v as? UILabel { return d; } }; return nil; }
     func textField() -> UITextField? { for v in subviews { if let d = v as? UITextField { return d; } }; return nil; }

@@ -11,12 +11,12 @@ import UIKit
 
 extension UILabel {
     
-    func hyphenate() {
-        let paragraphStyle = NSMutableParagraphStyle()
-        let attstr = NSMutableAttributedString(attributedString: self.attributedText!)
-        paragraphStyle.hyphenationFactor = 1.0
-        attstr.addAttribute(.paragraphStyle, value: paragraphStyle, range: NSRange(0..<attstr.length))
-        self.attributedText = attstr
-    }
+//    func hyphenate() {
+//        let paragraphStyle = NSMutableParagraphStyle()
+//        let attstr = NSMutableAttributedString(attributedString: self.attributedText!)
+//        paragraphStyle.hyphenationFactor = 1.0
+//        attstr.addAttribute(.paragraphStyle, value: paragraphStyle, range: NSRange(0..<attstr.length))
+//        self.attributedText = attstr
+//    }
     
 }

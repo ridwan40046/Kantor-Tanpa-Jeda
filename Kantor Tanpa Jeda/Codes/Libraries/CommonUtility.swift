@@ -402,15 +402,15 @@ class Util : NSObject {
         UIView.commitAnimations()
     }
     
-    static func labelPerfectHeight (_ mylabel : UILabel, textToFit : String = "")->CGFloat {
-        var str = textToFit;
-        if (str == "") {
-            str = mylabel.text ?? "";
-        }
-        
-        return str.boundingRect(with: CGSize(width: mylabel.frame.size.width, height: 10000), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: mylabel.font], context: nil).size.height;
-        
-    }
+//    static func labelPerfectHeight (_ mylabel : UILabel, textToFit : String = "")->CGFloat {
+//        var str = textToFit;
+//        if (str == "") {
+//            str = mylabel.text ?? "";
+//        }
+//        
+//        return str.boundingRect(with: CGSize(width: mylabel.frame.size.width, height: 10000), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: mylabel.font], context: nil).size.height;
+//        
+//    }
     
     static func showAlertMenu (_ viewController: UIViewController, title: String? = nil, message: String? = nil, choices: [String]?, styles: [UIAlertActionStyle?] = [], icons: [UIImage?]? = nil, addCancel : Bool = true, callback: ((Int)->Void)?) {
         guard let choices = choices else { return; }
@@ -555,16 +555,16 @@ class Util : NSObject {
                                whenDone: { callback (result); });
     }
     
-    static func changeColorOfAllPlaceholder (inView: UIView?, toColor: UIColor?) {
-        guard let inView = inView, let toColor = toColor else { return; }
-        self.iterateOverAllElements(view: inView) { thisView in
-            let color = [NSAttributedStringKey.foregroundColor: toColor];
-            if let tf = thisView as? UITextField {
-                tf.attributedPlaceholder = NSAttributedString(string: tf.placeholder ?? "", attributes: color);
-            }
-        }
-
-    }
+//    static func changeColorOfAllPlaceholder (inView: UIView?, toColor: UIColor?) {
+//        guard let inView = inView, let toColor = toColor else { return; }
+//        self.iterateOverAllElements(view: inView) { thisView in
+//            let color = [NSAttributedStringKey.foregroundColor: toColor];
+//            if let tf = thisView as? UITextField {
+//                tf.attributedPlaceholder = NSAttributedString(string: tf.placeholder ?? "", attributes: color);
+//            }
+//        }
+//
+//    }
     
     
 }

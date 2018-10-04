@@ -17,9 +17,25 @@ typealias DictStringOpt = [String: String?];
 typealias ArrString = Array<String>
 typealias ArrInt = Array<Int>
 typealias ArrBool = Array<Bool>
-typealias ModelReturn = ((FireObject?)->Void)
-typealias Return<T> = ((T)->Void)
-typealias Change<T> = ((T)->T)
-typealias Callback = (()->Void);
-typealias Rereturn<T> = ((T)->((T)->Void)?)
 
+typealias dictStringOpt = Dictionary<String, String?>
+typealias dictTypeOpt = Dictionary<String, AnyObject?>
+typealias dictString = Dictionary<String, String>
+typealias dictType = Dictionary<String, AnyObject>
+typealias arrType = Array<dictType>
+typealias arrString = Array<String>
+typealias JSONreturn = ((RequestStatusType, AnyObject?)->Void)
+typealias ModelReturn = ((JsonObject?)->Void)
+typealias Return<T> = ((T)->Void)
+
+enum RequestStatusType {
+    case timeout
+    case invalidAccessToken
+    case serverError
+    case generalError
+    case customError
+    case noResponseError
+    case success
+    case invalidUrl
+    case notFound
+}
